@@ -1,0 +1,23 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Servidor - Delivery Mais'
+  ClientHeight = 258
+  ClientWidth = 339
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object memo: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Size.Width = 339.000000000000000000
+    Size.Height = 258.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 335.000000000000000000
+    Viewport.Height = 254.000000000000000000
+  end
+end
